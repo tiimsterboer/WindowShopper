@@ -66,6 +66,9 @@
                                 <state key="normal" title="Clear Calculator">
                                     <color key="titleColor" red="0.98869028140000004" green="0.98869028140000004" blue="0.98869028140000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="clearCalcPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d1V-EP-FUj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -97,7 +100,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="hoursLbl" destination="Xpa-0r-FTG" id="trr-Ux-Iqo"/>
                         <outlet property="priceTxt" destination="LED-0K-mth" id="83e-uF-udr"/>
+                        <outlet property="resultLbl" destination="t2A-vb-kFJ" id="7hH-gf-qgy"/>
                         <outlet property="wageTxt" destination="S3x-V0-cDt" id="pj7-71-xpN"/>
                     </connections>
                 </viewController>
